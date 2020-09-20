@@ -21,7 +21,17 @@
 	text-align: center;
 }
 
-#eu-cookie-message form input {
+.eu-cookie-message-button {
+	display: block;
+	margin: 15px auto 0 auto;
+	padding: 5px 10px;
+	background-color: #F6D000;
+	border: 2px solid #787252;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.eu-cookie-message-button:hover {
 	display: block;
 	margin: 15px auto 0 auto;
 	padding: 5px 10px;

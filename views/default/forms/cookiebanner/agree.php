@@ -12,6 +12,7 @@ $footer = elgg_view_field([
 	'#type' => 'submit',
 	'value' => elgg_echo('cookiebanner:accept'),
 	'name' => 'btnCookieOk',
+	'class' => 'eu-cookie-message-button',
 ]);
 
 elgg_set_form_footer($footer);
