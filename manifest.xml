@@ -3,7 +3,7 @@
 	<name>Cookiebanner</name>
 	<id>cookiebanner</id>
 	<author>iionly</author>
-	<version>3.0.0</version>
+	<version>3.3.0</version>
 	<category>enhancement</category>
 	<description>Displays a banner at top of page informing about cookie terms of use on the site.</description>
 	<website>https://github.com/iionly</website>
@@ -11,7 +11,7 @@
 	<license>GNU Public License version 2</license>
 	<requires>
 		<type>elgg_release</type>
-		<version>3.0.0</version>
+		<version>3.3.0</version>
 	</requires>
 	<requires>
 		<type>plugin</type>
