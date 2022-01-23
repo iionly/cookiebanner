@@ -8,10 +8,15 @@ $terms_page_url = elgg_view('output/url', [
 
 echo elgg_echo('cookiebanner:message', [$terms_page_url]);
 
+echo elgg_view_field([
+	'#type' => 'hidden',
+	'name' => 'btnCookieOk',
+	'value' => 1,
+]);
+
 $footer = elgg_view_field([
 	'#type' => 'submit',
 	'value' => elgg_echo('cookiebanner:accept'),
-	'name' => 'btnCookieOk',
 	'class' => 'eu-cookie-message-button',
 ]);
 

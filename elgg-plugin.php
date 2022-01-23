@@ -1,6 +1,10 @@
 <?php
 
 return [
+	'plugin' => [
+		'name' => 'Cookiebanner',
+		'version' => '4.0.0',
+	],
 	'actions' => [
 		'cookiebanner/agree' => ['access' => 'public'],
 	],
